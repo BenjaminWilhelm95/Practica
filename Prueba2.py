@@ -1,7 +1,7 @@
 import tkinter as tk
-from tkinter import ttk
 import serial
 from serial import SerialException
+
 
 class CNCInterface:
     def __init__(self, root):
